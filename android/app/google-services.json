@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "510044898741",
+    "project_id": "groceries-49c30",
+    "storage_bucket": "groceries-49c30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510044898741:android:9881d74845216a401f85fc",
+        "android_client_info": {
+          "package_name": "com.santosenoque.cadevo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510044898741-o74b1l8b9dj10vpduhtnja1jvv05u973.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOHHXqfEh0L4gF75D7DRxHAE32Ji0GyXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510044898741-o74b1l8b9dj10vpduhtnja1jvv05u973.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
