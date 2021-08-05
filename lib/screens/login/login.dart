@@ -1,9 +1,8 @@
-import 'package:cadevo/constants/controllers.dart';
-import 'package:cadevo/helpers/style.dart';
-import 'package:cadevo/screens/home/home.dart';
-import 'package:cadevo/screens/registration/registration.dart';
-import 'package:cadevo/widgets/custom_button.dart';
-import 'package:cadevo/widgets/custom_text.dart';
+import '../../constants/controllers.dart';
+import '../../helpers/style.dart';
+import '../../screens/registration/registration.dart';
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -105,7 +104,7 @@ Widget build(BuildContext context) {
                 },
                 child: RichText(text: TextSpan(
                   children: [
-                    TextSpan(text: "Do not have an account yeat? ", style: TextStyle(color: Colors.black)),
+                    TextSpan(text: "Do not have an account yet? ", style: TextStyle(color: Colors.black)),
                     TextSpan(text: "Create account! ", style: TextStyle(color: active))
                   ]
                 )),

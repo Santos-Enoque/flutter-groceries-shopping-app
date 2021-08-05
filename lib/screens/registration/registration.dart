@@ -1,9 +1,7 @@
-import 'package:cadevo/constants/controllers.dart';
-import 'package:cadevo/helpers/style.dart';
-import 'package:cadevo/screens/home/home.dart';
-import 'package:cadevo/screens/login/login.dart';
-import 'package:cadevo/widgets/custom_button.dart';
-import 'package:cadevo/widgets/custom_text.dart';
+import '../../constants/controllers.dart';
+import '../../helpers/style.dart';
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -54,7 +52,7 @@ Widget build(BuildContext context) {
                    controller: authController.name,
                 decoration: InputDecoration(
                     labelText: "Name",
-                    hintText: "Santos Enoque",
+                    hintText: "Santos",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20))),
               ),

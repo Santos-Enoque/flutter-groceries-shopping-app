@@ -1,12 +1,13 @@
-import 'package:cadevo/constants/constants.dart';
-import 'package:cadevo/helpers/showLoading.dart';
-import 'package:cadevo/models/user.dart';
-import 'package:cadevo/screens/home/home.dart';
-import 'package:cadevo/screens/login/login.dart';
+import '../constants/constants.dart';
+import '../helpers/showLoading.dart';
+import '../models/user.dart';
+import '../screens/home/home.dart';
+import '../screens/layout/layout.dart';
+import '../screens/login/login.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:cadevo/constants/firebase.dart';
+import '../constants/firebase.dart';
 
 class AuthController extends GetxController {
   static AuthController instance = Get.find();
@@ -30,7 +31,7 @@ class AuthController extends GetxController {
     if (user == null) {
       Get.offAll(() => LoginScreen());
     } else {
-      Get.offAll(() => HomeScreen());
+      Get.offAll(() => LayoutScreen());
     }
   }
 

@@ -1,5 +1,6 @@
 import 'package:cadevo/constants/firebase.dart';
 import 'package:cadevo/controllers/authController.dart';
+import 'package:cadevo/controllers/bottom_nav_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -7,6 +8,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initialization.then((value){
     Get.put(AuthController());
+    Get.put(BottomNavigationController());
   });
   runApp(MyApp());
 }
